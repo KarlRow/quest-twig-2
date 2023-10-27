@@ -2,13 +2,20 @@
 {% extends 'layout.html.twig' %}
 
 {% block title %}
+
     {{ parent() }} - Accueil
+
 {% endblock %}
 
 {% block nav %}
+
     {{ parent() }}
+
 {% endblock %}
 
 {% block content %}
-    Hello World !
+
+Hello {{ name }}
+Hello {{ name2 }}
+
 {% endblock %}
